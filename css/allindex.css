@@ -1,0 +1,88 @@
+/*顶部栏顶*/
+.top-nav{
+	background-color: #2a5371;
+	height: 35px;
+}
+.top-nav>div{
+	color: #fff;
+	font-size: 15px;
+}
+.rt-bar{
+	margin-right: 18.5%;
+}
+.top-nav>.rt-bar>div{
+	float: right;
+	margin-right: 8px;
+	margin-top: 6px;
+	cursor: pointer;
+}
+.top-nav>.rt-bar>div:last-child{
+	margin-right: 25px;
+}
+.top-welcom{
+	margin:6px 0 0 18.75%;
+}
+/*顶部栏顶 END*/
+
+/*导航栏*/
+.navbar{
+	height: 77px;	
+}
+.logo-img{
+	margin-left: 21.88%;
+	margin-top: 5px;
+	float: left;
+}
+/*菜单栏*/
+.nav{
+	margin-right: 17.45%;
+	margin-top: 40px;
+	display: flex;
+}
+.nav>div{
+	height: 35px;
+	width: 68px;
+	text-align: center;
+	line-height: 35px;
+	color: #1d1d1d;
+	font-size: 15.5px;
+	font-weight: 700;
+	float: left;
+	margin-right: 25px;
+}
+.nav>div:hover{
+	border-bottom: 2px solid #4278f3;
+}
+.nav>div:first-child{
+	width: 40px;
+}
+.nav>div>a{
+	color: #1d1d1d;
+	text-decoration: none;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+/*导航栏 END*/
+
+/*轮播图*/
+.banner>img{
+	margin-top: 7px;
+	height: 28.6%;
+	width: 100%;
+}
+/*轮播图 END*/
+
+/*底部栏尾*/
+.foot-nav{
+	width: 100%;
+	height: 100px;
+	background-color: #2a5371;
+	margin-top: 35px;
+}
+.foot-nav>p{
+	white-space: pre;
+	color: #fff;
+	text-align: center;
+	line-height: 100px;
+}
+/*底部栏尾 END

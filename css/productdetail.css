@@ -1,0 +1,144 @@
+/*导航栏变化*/
+.nav>div:nth-child(6)>a{
+	color: #4278f3;
+}
+.nav>div:hover>a{
+	color: #4278f3;
+}
+.nav>div:nth-child(6){
+	border-bottom: 2px solid #4278f3;
+}
+/*导航栏变化*/
+
+/*新闻详情*/
+.news-box{
+	width: 64%;
+	height: 980px;
+	margin: 0 auto;
+	border-top: 1px solid #767676;
+	border-bottom: 1px solid #767676;
+	position: relative;
+	top: 20px;
+}
+/*位置显示*/
+.new-top-nav{
+	width: 62%;
+	height: 1px;
+	margin: 25px auto 0;
+	font-size: 12px;
+	color: #767676;
+	font-weight: 700;
+	line-height: 26px;
+}
+/*位置显示 END*/
+
+/*左侧产品菜单栏*/
+.new-leftbox>ul>li:hover{
+	color: #005bf1;
+}
+.new-leftbox>ul>li:nth-child(2){
+	color: #005bf1;
+}
+.new-leftbox{
+	width: 170px;
+	height: 480px;
+	margin-top: 50px;
+	margin-left: 25px;
+	border: 1px solid #c9c9c9;
+	border-bottom: none;
+	position: relative; 
+}
+.new-leftbox>ul>li{
+	 list-style-type: none;
+	 text-align: center;
+	 width: 100%;
+	 height: 60px;
+	 line-height: 60px;
+	 border-bottom: 1px solid #c9c9c9;
+	 box-sizing: border-box;
+	 font-weight: 700;
+	 color: #1c1c1c;
+}
+.price::before{
+	content: "";
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: -29px;
+	background: url(../image/product/small-tb.png) no-repeat center center;
+}
+
+/*左侧产品菜单栏 END*/
+
+/*右侧新闻展示内容*/
+.news{
+	width: 805px;
+	margin-left: 200px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.news>div:first-child{
+	color: #414141;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:30px; 
+	font-size: 22px;
+}
+.news>div>i{
+	font-style: italic;
+	font-family: "黑体";
+	letter-spacing: -1px;
+}
+.prt-text-box{
+	width: 788px;
+	height: 850px;
+	margin-left: 10px;
+	border-top: 1px dashed #000;
+	border-bottom: 1px dashed #000;
+}
+.prt-text-box>div:first-child{
+	width: 500px;
+	margin: 0 auto;
+}
+.prt-text-box>div:first-child>img{
+	width: 500px;
+	margin-top: 5px;
+}
+.first-text{
+	font-family: "黑体";
+	text-indent: 2em;
+	width: 705px;
+	height: 120px;
+	margin: 0 auto;
+	color: #535353;
+	line-height: 30px;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.sed-text-box{
+	width: 705px;
+	height: 295px;
+	margin: 0 auto;
+}
+.smallbj::before{
+	content: url(../image/product/smallbj.png);
+	margin: 0 15px 0 7px;
+}
+.sed-text-box>ul>li:last-child{
+	font-family: "黑体";
+	text-indent: 2em;
+	font-size: 15px;
+	color: #535353 ;
+	line-height: 25px;
+	margin-top: 10px;
+}
+/*右侧产品展示内容 END*/
+
+
+/*右侧新闻展示内容 END*/
+
+
+
+/*新闻详情 END

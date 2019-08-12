@@ -1,0 +1,43 @@
+/*样式初始化*/
+html,body,a,p{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+i,ul{
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+button{
+	border: 0;
+	outline: none;
+}
+/*预设样式*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*清楚父级浮动影响*/
+.cleaflow{
+	overflow: hidden;
+}
+/*清楚同级浮动影响*/
+.cleafix{
+	clear: both;
+}
+/*弹性布局水平居中*/
+.center-box{
+	display: flex;
+	justify-content: center;
+}
+/*统一宽度*/
+.all-width{
+	width: 100%;
+}
+/*样式初始化 END*/
